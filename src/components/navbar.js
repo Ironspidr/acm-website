@@ -19,9 +19,9 @@ import {
   Bars2Icon,
 } from "@heroicons/react/24/solid";
 
-import logo1 from "../assets/logo_woBg.png";
+import logo1 from "../assets/img/acm_logo.png";
 import DarkModeButton from "./darkModeSwitch";
-import logoW from "../assets/logo_woBg_white.png";
+import logoW from "../assets/img/acm_logo_white.png";
 import { Link } from "react-router-dom";
 // nav list menu
 const navListMenuItems = [

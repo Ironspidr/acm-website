@@ -1,7 +1,7 @@
 import backdrop from "../assets/img/backdrop_1.jpg";
 import { ComplexNavbar } from "../components/navbar";
 import { Banner } from "../components/banner";
-
+// import { About } from "../templates/about";
 import {
   Card,
   CardHeader,
@@ -17,8 +17,9 @@ import {
 import branching from "../assets/img/medical story.png";
 import clubs from "../assets/img/home-page-banner.png";
 import aboutus from "../assets/img/aboutUs.jpg";
-import Associates from "../components/associates";
+// import Associates from "../components/associates";
 import { Footer } from "../components/footer";
+
 export default function Home() {
   return (
     <div className="App font-family:league-spartan bg-back-light dark:bg-back-dark">
@@ -27,13 +28,13 @@ export default function Home() {
           <ComplexNavbar />
           <div className="flex items-center justify-center w-full pt-10">
             <Banner
-              title="Welcome to Eastvale Innovators"
-              caption="Gearing up for the future!"
+              title="Home of UCSC ACM"
+              caption="The largest computer science organization at UCSC!"
               Banner={backdrop}
             />
           </div>
         </header>
-        <Associates />
+        {/* <Associates /> */}
         <ActionItems />
         {/* <InstaEmbed /> */}
       </div>
@@ -41,6 +42,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 function ActionItems() {
   return (

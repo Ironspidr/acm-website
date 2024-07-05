@@ -6,7 +6,8 @@ module.exports = withMT({
   darkMode: "class",
   theme: {
     fontFamily: {
-      thisFont: ["League Spartan", "sans-serif"],
+      thisFont: ["Montserrat", "sans-serif"],
+      oldFont: ["League Spartan", "sans-serif"],
     },
     extend: {
       colors: {

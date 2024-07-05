@@ -1,23 +1,13 @@
-import { ComplexNavbar } from "../components/navbar";
-import { Banner } from "../components/banner";
 import backdrop from "../assets/img/backdrop_1.jpg";
 import { Footer } from "../components/footer";
 import Associates from "../components/associates";
+import Header from "../components/header";
 
 export default function About() {
   return (
     <div className="App font-family:league-spartan dark:bg-back-dark ">
       <div>
-        <header className="App-header pt-5 justify-center">
-          <ComplexNavbar />
-          <div className="flex items-center justify-center w-full pt-10">
-            <Banner
-              title="About Eastvale Innovators"
-              caption="Gearing up for the future!"
-              Banner={backdrop}
-            />
-          </div>
-        </header>
+        <Header />
         <Mission
           title="Our Mission"
           desc="Eastvale Innovators is a student-led organization that aims to

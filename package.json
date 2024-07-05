@@ -1,5 +1,5 @@
 {
-  "name": "innovators_v2",
+  "name": "acm-web",
   "version": "0.1.0",
   "homepage": "https://nj-web.com/innovators_v2/",
   "private": true,
@@ -44,5 +44,10 @@
     "gh-pages": "^6.1.1",
     "react-router-dom": "^6.22.3",
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "description": "![Banner of Eastvale Innovators](<src/assets/eastvale innovators banner_bg.png>) <!-- .element height=\"50%\" width=\"50%\" -->",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
